@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "image": "/product2.png",
+      "image2": "/popup1.png",
+      "title": "Zucchini & Broccoli",
+      "ingredients": ["Chickpeas", "banana", "apple"],
+      "price": 8,
+      "description": "Broccoli is packed with vitamins C and K, supporting healthy immune function and strong bones, while zucchini provides hydration and essential nutrients like potassium. Together, they create a tasty puree that introduces little ones to vibrant flavours and vital nutrients."
+    },
+    {
+      "image": "/product1.png",
+      "image2": "/popup2.png",
+      "title": "Butternut Squash, Apple & Cinnamon",
+      "ingredients": ["Butternut squash", "banana", "carrot"],
+      "price": 10,
+      "description": "This nutrient-dense blend features ingredients that are gentle and beneficial for babies. Butternut squash is loaded with vitamin A supporting healthy vision and immune function, while apples provide fibre, promoting good digestion. A touch of cinnamon adds a mild, baby-friendly spice that can help boost metabolism and aid digestion."
+    },
+    {
+      "image": "/product3.png",
+      "image2": "/popup3.png",
+      "title": "Chickpea & Banana",
+      "ingredients": ["Apple", "cinnamon", "pear"],
+      "price": 15,
+      "description": "This creamy blend combines protein-rich chickpeas and potassium-packed bananas. Chickpeas provide essential plant-based protein and fibre, supporting healthy digestion and muscle development in babies. Bananas offer potassium, which is important for heart health, and natural carbohydrates to fuel active little ones."
+    },
+    {
+      "image": "/product2.png",
+      "image2": "/popup1.png",
+      "title": "Zucchini & Broccoli",
+      "ingredients": ["Broccoli", "zucchini", "apple"],
+      "price": 8,
+      "description": "Broccoli is packed with vitamins C and K, supporting healthy immune function and strong bones, while zucchini provides hydration and essential nutrients like potassium. Together, they create a tasty puree that introduces little ones to vibrant flavours and vital nutrients."
+    },
+    {
+      "image": "/product1.png",
+      "image2": "/popup2.png",
+      "title": "Butternut Squash, Apple & Cinnamon",
+      "ingredients": ["Plum", "banana", "carrot"],
+      "price": 10,
+      "description": "This nutrient-dense blend features ingredients that are gentle and beneficial for babies. Butternut squash is loaded with vitamin A supporting healthy vision and immune function, while apples provide fibre, promoting good digestion. A touch of cinnamon adds a mild, baby-friendly spice that can help boost metabolism and aid digestion."
+    },
+    {
+      "image": "/product2.png",
+      "image2": "/popup3.png",
+      "title": "Chickpea & Banana",
+      "ingredients": ["Pear", "blueberry", "apple"],
+      "price": 15,
+      "description": "This creamy blend combines protein-rich chickpeas and potassium-packed bananas. Chickpeas provide essential plant-based protein and fibre, supporting healthy digestion and muscle development in babies. Bananas offer potassium, which is important for heart health, and natural carbohydrates to fuel active little ones."
+    }
+  ]
+}
