@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Heading from '@/components/shared/Heading';
+import Image from 'next/image';
 
 const containerVariants = {
       hidden: { opacity: 0 },
@@ -35,7 +36,9 @@ const ProductProcess = () => {
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                               {/* Updated image section with bottom-center alignment */}
                               <div className="order-last flex items-center justify-center h-full">
-                                    <img
+                                    <Image
+                                          width={500}
+                                          height={500}
                                           loading="lazy"
                                           alt="image"
                                           className="md:w-[420px] w-[90%]"

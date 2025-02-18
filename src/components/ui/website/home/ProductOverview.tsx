@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Heading from '@/components/shared/Heading';
+import Image from 'next/image';
 
 const containerVariants = {
       hidden: { opacity: 0 },
@@ -28,7 +29,9 @@ const ProductOverview = () => {
                   <div className="container">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-end h-full">
                               <div className="order-last flex items-center justify-center h-full">
-                                    <img
+                                    <Image
+                                          width={500}
+                                          height={500}
                                           loading="lazy"
                                           alt="image"
                                           className="w-[80%] md:w-[50%]"

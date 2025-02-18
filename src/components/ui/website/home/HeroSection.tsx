@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion';
 import Navbar from '@/components/shared/Navbar';
+import Image from 'next/image';
 
 const backgroundVariants = {
       hidden: { opacity: 0, y: -50, scale: 1.4 },
@@ -37,25 +38,40 @@ export default function HeroSection() {
 
                         <div className="z-[-0] container overflow-hidden -mt-[72px] md:-mt-[88px] relative flex flex-col justify-center items-center h-full">
                               {/* Background image with smoother scaling and movement */}
-                              <motion.img
-                                    loading="lazy"
-                                    src="/hero-inside.png"
-                                    alt=""
-                                    initial="hidden"
-                                    animate="visible"
-                                    variants={backgroundVariants}
-                              />
+                              {/* <motion.img loading="lazy" src="/hero-inside.png" alt="" /> */}
+                              <motion.div initial="hidden" animate="visible" variants={backgroundVariants}>
+                                    <Image
+                                          className="w-[100vw]"
+                                          loading="lazy"
+                                          width={2000}
+                                          height={2000}
+                                          src="/hero-inside.png"
+                                          alt=""
+                                    />
+                              </motion.div>
 
                               {/* Foreground product image with smooth fade-in and slide-up */}
-                              <motion.img
+                              {/* <motion.img
                                     loading="lazy"
                                     className="absolute w-[65%] mx-auto drop-shadow-2xl"
                                     src="/baby-product.png"
                                     alt=""
+                              /> */}
+                              <motion.div
+                                    className="absolute "
                                     initial="hidden"
                                     animate="visible"
                                     variants={productVariants}
-                              />
+                              >
+                                    <Image
+                                          loading="lazy"
+                                          className=" w-[80%] mx-auto drop-shadow-2xl"
+                                          width={1000}
+                                          height={1000}
+                                          src="/baby-product.png"
+                                          alt=""
+                                    />
+                              </motion.div>
                         </div>
                   </div>
             </div>

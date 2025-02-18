@@ -1,5 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 const Ingredient = () => {
       return (
             <div className="bg-[#ffeebc] py-10">
@@ -32,7 +33,9 @@ const Ingredient = () => {
                                                             >
                                                                   Rich in Essential Nutrients
                                                             </motion.h2>
-                                                            <img
+                                                            <Image
+                                                                  width={120}
+                                                                  height={120}
                                                                   className="size-[120px] m-auto"
                                                                   src="/ing1.png"
                                                                   alt=""
@@ -60,7 +63,9 @@ const Ingredient = () => {
                                                             >
                                                                   Smooth and Creamy
                                                             </motion.h2>
-                                                            <img
+                                                            <Image
+                                                                  width={120}
+                                                                  height={120}
                                                                   className="size-[120px] m-auto"
                                                                   src="/ing2.png"
                                                                   alt=""
@@ -71,7 +76,9 @@ const Ingredient = () => {
                                     </div>
                               </div>
                               <div className="col-span-6">
-                                    <img
+                                    <Image
+                                          width={600}
+                                          height={600}
                                           alt="image"
                                           className="mx-auto w-full h-full drop-shadow-xl"
                                           src="/baby-product2.png"
@@ -99,7 +106,9 @@ const Ingredient = () => {
                                                             >
                                                                   Pure and Flavourful
                                                             </motion.h2>
-                                                            <img
+                                                            <Image
+                                                                  width={120}
+                                                                  height={120}
                                                                   className="size-[120px] m-auto"
                                                                   src="/ing3.png"
                                                                   alt=""
@@ -127,7 +136,9 @@ const Ingredient = () => {
                                                             >
                                                                   Perfectly Balanced For Growing Babies
                                                             </motion.h2>
-                                                            <img
+                                                            <Image
+                                                                  width={120}
+                                                                  height={120}
                                                                   className="size-[120px] m-auto"
                                                                   src="/ing4.png"
                                                                   alt=""

@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Button from '@/components/shared/Button';
 import Heading from '@/components/shared/Heading';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const containerVariants = {
       hidden: { opacity: 0 },
@@ -30,7 +31,14 @@ const Nurturing = () => {
                   <div className="container">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
                               <div className="order-last h-full">
-                                    <img loading="lazy" alt="image" className="w-full" src="/baby-banana.png" />
+                                    <Image
+                                          width={500}
+                                          height={500}
+                                          loading="lazy"
+                                          alt="image"
+                                          className="w-full"
+                                          src="/baby-banana.png"
+                                    />
                               </div>
 
                               {/* Text section with stagger animations */}

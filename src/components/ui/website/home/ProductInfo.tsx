@@ -3,6 +3,7 @@
 import { motion } from 'framer-motion';
 import Button from '@/components/shared/Button';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const containerVariants = {
       hidden: { opacity: 0 },
@@ -69,7 +70,13 @@ export default function ProductInfo() {
 
                               {/* Icon Section - No stagger here */}
                               <div className="flex items-center justify-center md:justify-start">
-                                    <img className="w-[75%] mx-auto md:-mx-5 block" src={'/tag.png'} alt="" />
+                                    <Image
+                                          width={400}
+                                          height={400}
+                                          className="w-[75%] mx-auto md:-mx-5 block"
+                                          src={'/tag.png'}
+                                          alt=""
+                                    />
                               </div>
                         </motion.div>
                   </div>

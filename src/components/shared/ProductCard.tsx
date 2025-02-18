@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Button from './Button';
 import { ConfigProvider, Modal } from 'antd';
 import { TProduct } from '@/types';
+import Image from 'next/image';
 
 const initial = {
       hidden: { opacity: 0 },
@@ -30,7 +31,7 @@ const ProductCard = ({ product }: { product: TProduct }) => {
 
       return (
             <div className="text-center relative w-full h-full md:p-5 rounded-2xl flex flex-col">
-                  <motion.img
+                  <motion.div
                         initial={{ opacity: 0, y: 20, scale: 0.98 }}
                         whileInView={{
                               opacity: 1,
@@ -38,10 +39,15 @@ const ProductCard = ({ product }: { product: TProduct }) => {
                               scale: 1,
                               transition: { duration: 1, ease: 'easeInOut' },
                         }}
-                        alt="product"
-                        className="mx-auto h-[250px] "
-                        src={product.image}
-                  />
+                  >
+                        <Image
+                              width={250}
+                              height={250}
+                              alt="product"
+                              className="mx-auto h-[250px] "
+                              src={product.image}
+                        />
+                  </motion.div>
                   <motion.h2
                         initial={initial}
                         whileInView={animate}
