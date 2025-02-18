@@ -52,7 +52,7 @@ export default function ProductInfo() {
                               <motion.p className="text-[#5e741d] " variants={textVariants}>
                                     Our organic baby food is specially crafted to provide the highest nutritional value
                                     for your little ones. Each product is made from 100% organic fruits and vegetables,
-                                    carefully selected and blended into smooth, flavourful purées. They are then
+                                    carefully selected and blended into smooth, flavourful purees. They are then
                                     flash-frozen to lock in freshness, nutrients, and taste, making them a convenient
                                     and healthy choice for busy parents.
                               </motion.p>
