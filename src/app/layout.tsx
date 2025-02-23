@@ -3,7 +3,7 @@ import './globals.css';
 import Providers from '@/providers/Providers';
 
 export const metadata: Metadata = {
-      title: 'Cove valley Organics',
+      title: 'Cove Valley Organics',
       description:
             ' organic baby food is specially crafted to provide the highest nutritional value for your little ones.',
 };
